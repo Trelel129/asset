@@ -1,48 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T07:19:35.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bNXQoRDsQqPpxRiDLQqt" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T07:43:21.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3JgglBAnAE0FV2zu3qUE" version="24.5.5" type="github">
   <diagram name="Page-1" id="B2VvSjPYqP0Dd8WSLtDL">
-    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="H23mw5haXismM71pRZtm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-1" target="H23mw5haXismM71pRZtm-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-4" value="act:buildclick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-3">
-          <mxGeometry x="-0.2734" relative="1" as="geometry">
-            <mxPoint x="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-1" target="H23mw5haXismM71pRZtm-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="60" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-7" value="act:maptileclick&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;selectedtile==0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-6">
-          <mxGeometry x="0.1314" y="1" relative="1" as="geometry">
-            <mxPoint x="14" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-1" value="&lt;div&gt;0&lt;/div&gt;-----Start-----&lt;div&gt;selectedtile=0&lt;/div&gt;&lt;div&gt;savedtile=0&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="20" y="180" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-2" target="H23mw5haXismM71pRZtm-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-10" value="act:menutileclick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-9">
-          <mxGeometry x="-0.3543" y="3" relative="1" as="geometry">
-            <mxPoint x="15" y="3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-2" value="show tilemenu" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="210" y="180" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-5" value="savedtile&lt;br&gt;=clicked;&lt;br&gt;animation&lt;br&gt;(savedtile)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="290" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-8" value="selectedtile=&lt;br&gt;clicked;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="400" y="180" width="80" height="80" as="geometry" />
+          <mxGeometry x="-810" y="90" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-12" target="H23mw5haXismM71pRZtm-13">
           <mxGeometry relative="1" as="geometry" />
@@ -53,7 +16,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-12" value="tilemap&lt;br&gt;idle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="20" y="420" width="80" height="80" as="geometry" />
+          <mxGeometry x="-815" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-13" target="H23mw5haXismM71pRZtm-25">
           <mxGeometry relative="1" as="geometry" />
@@ -64,30 +27,50 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-13" value="tilemap&lt;br&gt;clicked;&lt;br&gt;setselectedtile&lt;br&gt;(click);" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="210" y="420" width="80" height="80" as="geometry" />
+          <mxGeometry x="-625" y="270" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="930" width="290" height="160" as="geometry" />
+          <mxGeometry x="-815" y="855" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-22" value="Tilemap&lt;br&gt;(consist of selectedtile)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="30" y="950" width="120" height="120" as="geometry" />
+          <mxGeometry x="-795" y="875" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-23" value="Tilemenu&lt;br&gt;(consist of savedtile)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="950" width="120" height="120" as="geometry" />
+          <mxGeometry x="-665" y="875" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-25" value="&lt;div&gt;inventory&lt;br&gt;[savedtile]--;&lt;br&gt;&lt;div&gt;selectedtile&lt;br&gt;=savedtile&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="410" width="100" height="100" as="geometry" />
+        <mxCell id="H23mw5haXismM71pRZtm-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-25" target="H23mw5haXismM71pRZtm-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-53" value="selectedtile != 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-52">
+          <mxGeometry x="-0.0456" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-25" target="H23mw5haXismM71pRZtm-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-56" value="selectedtile == 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-55">
+          <mxGeometry x="0.2155" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-25" value="&lt;div&gt;inventory&lt;br&gt;[savedtile]--;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="270" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="H23mw5haXismM71pRZtm-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="400" as="sourcePoint" />
-            <mxPoint x="60" y="350" as="targetPoint" />
+            <mxPoint x="-825" y="260" as="sourcePoint" />
+            <mxPoint x="-775" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="160" as="sourcePoint" />
-            <mxPoint x="32" y="192" as="targetPoint" />
+            <mxPoint x="-820" y="70" as="sourcePoint" />
+            <mxPoint x="-798" y="102" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-32" target="H23mw5haXismM71pRZtm-35">
@@ -99,26 +82,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-32" value="tilemenu&lt;br&gt;idle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="20" y="650" width="80" height="80" as="geometry" />
+          <mxGeometry x="-820" y="552" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-35" target="H23mw5haXismM71pRZtm-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-34" value="act:maptileclick &amp;amp;&amp;amp;&lt;div&gt;inventory[savedtile]&amp;gt;0&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-33">
-          <mxGeometry x="-0.1365" y="-1" relative="1" as="geometry">
-            <mxPoint x="9" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-35" value="tilemenu&lt;br&gt;clicked;&lt;br&gt;setsaved&lt;br&gt;(click);" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="210" y="650" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-36" value="&lt;div&gt;inventory&lt;br&gt;[savedtile]--;&lt;br&gt;&lt;div&gt;selectedtile&lt;br&gt;=savedtile&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="640" width="100" height="100" as="geometry" />
+        <mxCell id="H23mw5haXismM71pRZtm-35" value="tilemenu&lt;br&gt;clicked;&lt;br&gt;setsavedtile&lt;br&gt;(click);" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-619" y="548" width="88" height="88" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="H23mw5haXismM71pRZtm-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="630" as="sourcePoint" />
-            <mxPoint x="60" y="580" as="targetPoint" />
+            <mxPoint x="-830" y="532" as="sourcePoint" />
+            <mxPoint x="-780" y="482" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-38" target="H23mw5haXismM71pRZtm-39">
@@ -130,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-38" value="Tilemenu&lt;br&gt;hidden" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="40" y="540" width="80" height="80" as="geometry" />
+          <mxGeometry x="-800" y="442" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-39" target="H23mw5haXismM71pRZtm-38">
           <mxGeometry relative="1" as="geometry" />
@@ -141,13 +113,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-39" value="Tilemenu&lt;br&gt;idle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="230" y="540" width="80" height="80" as="geometry" />
+          <mxGeometry x="-610" y="442" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="H23mw5haXismM71pRZtm-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="28" y="518" as="sourcePoint" />
-            <mxPoint x="50" y="550" as="targetPoint" />
+            <mxPoint x="-812" y="420" as="sourcePoint" />
+            <mxPoint x="-790" y="452" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-48" value="savedtile!=0&lt;br&gt;~sudah memilih tile pada tilemenu~" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-49" value="selectedtile!=0&lt;br&gt;~tile yang dipilih pada tilemap tidak kosong~" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-51" value="&lt;div&gt;&lt;div&gt;inventory&lt;/div&gt;&lt;div&gt;[selectedtile]++;&lt;br&gt;setselectedtile&lt;br&gt;(savedtile)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="270" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-54" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;setselectedtile&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(savedtile)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-58" target="H23mw5haXismM71pRZtm-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-62" value="act:destroytileclick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-61">
+          <mxGeometry x="-0.5726" y="1" relative="1" as="geometry">
+            <mxPoint x="33" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-58" value="tiledestroy&lt;div&gt;idle&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-815" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="H23mw5haXismM71pRZtm-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-825" y="650" as="sourcePoint" />
+            <mxPoint x="-775" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-60" value="setsavedtile(0)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="670" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
