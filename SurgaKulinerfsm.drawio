@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T06:22:43.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wHu9TXGM3Ear5bb15_pc" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T06:41:11.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="X9nqbGFRW2wkiRc5P2TY" version="24.5.5" type="github">
   <diagram name="Page-1" id="B2VvSjPYqP0Dd8WSLtDL">
     <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,11 +12,37 @@
             <mxPoint x="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H23mw5haXismM71pRZtm-1" value="&lt;div&gt;0&lt;/div&gt;-----Start-----&lt;div&gt;selectedtile =0&lt;/div&gt;&lt;div&gt;savedtile=0&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="H23mw5haXismM71pRZtm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-1" target="H23mw5haXismM71pRZtm-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-7" value="act:maptileclick&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;selectedtile==0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-6">
+          <mxGeometry x="0.1314" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-1" value="&lt;div&gt;0&lt;/div&gt;-----Start-----&lt;div&gt;selectedtile=0&lt;/div&gt;&lt;div&gt;savedtile=0&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="20" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-2" target="H23mw5haXismM71pRZtm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-10" value="act:menutileclick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-9">
+          <mxGeometry x="-0.3543" y="3" relative="1" as="geometry">
+            <mxPoint x="15" y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-2" value="show tilemenu" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="210" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-5" value="savedtile&lt;br&gt;=clicked;&lt;br&gt;animation&lt;br&gt;(savedtile)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-8" value="selectedtile=&lt;br&gt;clicked;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
