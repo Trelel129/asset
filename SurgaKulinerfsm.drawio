@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T06:41:11.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="X9nqbGFRW2wkiRc5P2TY" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T07:19:35.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bNXQoRDsQqPpxRiDLQqt" version="24.5.5" type="github">
   <diagram name="Page-1" id="B2VvSjPYqP0Dd8WSLtDL">
     <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,6 +43,111 @@
         </mxCell>
         <mxCell id="H23mw5haXismM71pRZtm-8" value="selectedtile=&lt;br&gt;clicked;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="400" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-12" target="H23mw5haXismM71pRZtm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-15" value="act:maptileclick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-14">
+          <mxGeometry x="-0.0966" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-12" value="tilemap&lt;br&gt;idle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-13" target="H23mw5haXismM71pRZtm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-27" value="savedtile != 0 &amp;amp;&amp;amp;&lt;br&gt;inventory[savedtile] &amp;gt; 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-26">
+          <mxGeometry x="-0.1365" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-13" value="tilemap&lt;br&gt;clicked;&lt;br&gt;setselectedtile&lt;br&gt;(click);" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="930" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-22" value="Tilemap&lt;br&gt;(consist of selectedtile)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-23" value="Tilemenu&lt;br&gt;(consist of savedtile)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="950" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-25" value="&lt;div&gt;inventory&lt;br&gt;[savedtile]--;&lt;br&gt;&lt;div&gt;selectedtile&lt;br&gt;=savedtile&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="H23mw5haXismM71pRZtm-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="400" as="sourcePoint" />
+            <mxPoint x="60" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="160" as="sourcePoint" />
+            <mxPoint x="32" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-32" target="H23mw5haXismM71pRZtm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-31" value="act:menutileclick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-30">
+          <mxGeometry x="-0.0966" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-32" value="tilemenu&lt;br&gt;idle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-35" target="H23mw5haXismM71pRZtm-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-34" value="act:maptileclick &amp;amp;&amp;amp;&lt;div&gt;inventory[savedtile]&amp;gt;0&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-33">
+          <mxGeometry x="-0.1365" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-35" value="tilemenu&lt;br&gt;clicked;&lt;br&gt;setsaved&lt;br&gt;(click);" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-36" value="&lt;div&gt;inventory&lt;br&gt;[savedtile]--;&lt;br&gt;&lt;div&gt;selectedtile&lt;br&gt;=savedtile&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="H23mw5haXismM71pRZtm-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="630" as="sourcePoint" />
+            <mxPoint x="60" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-38" target="H23mw5haXismM71pRZtm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-41" value="act:buildclick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-40">
+          <mxGeometry x="-0.0698" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-38" value="Tilemenu&lt;br&gt;hidden" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H23mw5haXismM71pRZtm-39" target="H23mw5haXismM71pRZtm-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-45" value="act:closetilemenu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H23mw5haXismM71pRZtm-44">
+          <mxGeometry x="0.215" y="2" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-39" value="Tilemenu&lt;br&gt;idle" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H23mw5haXismM71pRZtm-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="H23mw5haXismM71pRZtm-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="28" y="518" as="sourcePoint" />
+            <mxPoint x="50" y="550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
