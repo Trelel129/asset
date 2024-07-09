@@ -2,7 +2,7 @@ This is an asset compilation for the [`Culinary Paradise Module`](https://github
 
 ## Getting Started
 
-To deploy this asset, you can use Github Pages or any other deployment tools.
+To deploy this asset, you can use Github Pages or any other deployment tools. \n
 This repository already have deployed using Github Pages.
 
 ## Learn More
